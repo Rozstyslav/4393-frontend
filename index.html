@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,8 +17,19 @@
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.header-hero.partial.html"
+      ></nav>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <section 
+      data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.about-us.partial.html">
+      </section>
+    </main>
     <footer class="footer"></footer>
   </body>
 </html>
