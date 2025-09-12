@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: black;
+  --border-color: black;
+  --accent-color: #a5c7cf;
+  --hero-text-color: #f8b803;
+  --hero-title-color: #ffffff;
+  scroll-behavior: smooth;
+  font-family: "Frank Ruhl Libre", serif;
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
